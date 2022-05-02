@@ -1,0 +1,12 @@
+.nav-item {
+    padding-left: 90px;
+  }
+  
+  #nav-bar-logo {
+    position: relative;
+    top: 5px;
+    color: white;
+  }
+  .logo {
+    position: fixed;
+  }
