@@ -1,7 +1,8 @@
 import React from "react";
 import "./NavBar.css";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CartWidget from "./CartWidget";
 
 const NavBar = () => {
   return (
@@ -45,6 +46,12 @@ const NavBar = () => {
               <a class="nav-link" href="#lp-report-server">
                 Vender
               </a>
+            </li>
+
+            <li class="nav-item" id="dropDown-managment">
+              <Button variant="outline-dark">
+                <CartWidget />
+              </Button>
             </li>
           </Nav>
         </Navbar.Collapse>
