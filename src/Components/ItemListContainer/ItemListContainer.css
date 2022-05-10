@@ -1,0 +1,13 @@
+
+.ItemListContainer-title{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+}
+
+.itemListContainer-card-list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+

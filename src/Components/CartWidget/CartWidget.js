@@ -1,5 +1,5 @@
 import React from "react";
-import Cart from "../../src/cart.svg";
+import Cart from "../../../src/cart.svg";
 import "./CartWidget.css";
 
 const CartWidget = () => {

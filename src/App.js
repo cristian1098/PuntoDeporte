@@ -1,16 +1,14 @@
-import './index.css';
-import NavBar from './Components/NavBar';
-import ItemListContainer from './Components/ItemListContainer';
+import "./index.css";
+import NavBar from "./Components/NavBar/NavBar";
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
-   <>
-   <NavBar/>
-   <br/>
-   <div className="bg-yellow-500 h-screen">
-     <ItemListContainer titulo="catalogo"/>
-   </div>
-   </>
+    <div className="App">
+      <NavBar />
+      <br />
+      <ItemListContainer titulo="catalogo" />
+    </div>
   );
 }
 

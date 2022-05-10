@@ -1,0 +1,10 @@
+.item-list {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
